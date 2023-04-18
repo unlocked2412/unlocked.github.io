@@ -1,0 +1,46 @@
+[
+  {
+    "grouping": "Languages, Operating Systems & Tools",
+    "skills": [
+      "Haskell",
+      "JavaScript",
+      "Python",
+      "bash",
+      {
+        "name": "macOS",
+        "icon": "apple"
+      },
+      {
+        "name": "iOS",
+        "icon": "apple"
+      }
+    ]
+  },
+  {
+    "grouping": "Mathematics",
+    "skills": [
+      "Propositional Logic",
+      "First Order Logic"
+    ]
+  },
+  {
+    "grouping": "Data Management",
+    "skills": [
+      {
+        "name": "Sqlite",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Teaching",
+    "skills": [
+        "Haskell",
+        "JavaScript",
+        "Python",
+        "Propositional Logic",
+        "First Order Logic",
+        "Music Theory"
+    ]
+  }
+]

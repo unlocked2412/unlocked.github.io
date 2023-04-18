@@ -1,0 +1,75 @@
+# The URL the site will be built for
+base_url = "https://unlocked2412.github.io"
+title = "Gabriel Scalise - macOS automation | Haskell teacher"
+description = "Home page for Gabriel Scalise macOS automation developer"
+
+# The default language; used in feeds and search index
+# Note: the search index doesn't support Chinese/Japanese/Korean Languages
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to generate a feed file for the site
+generate_feed = true
+
+build_search_index = true
+taxonomies = [
+  { name = "tags", feed = true }
+]
+
+theme="zola-resume"
+
+[languages.es]
+title = "Gabriel Scalise - desarrollador automatización macOS | profesor Haskell"
+description = "Gabriel Scalise - macOS automation & Haskell teacher"
+generate_feed = true
+taxonomies = [
+    {name = "tags"}
+]
+
+[languages.es.translations]
+about = "Acerca de"
+skills = "Habilidades"
+projects = "Proyectos"
+opensource = "Open Source"
+publications = "Publicaciones"
+experience = "Experiencia"
+education = "Educación"
+blog = "Blog"
+
+[markdown]
+highlight_code = true
+highlight_theme = "OneHalfLight"
+
+[extra]
+first_name = "Gabriel"
+last_name = "Scalise"
+address = "Buenos Aires, Argentina"
+email = "gabriels8020@gmail.com"
+favicon = "/favicon.ico"
+avatar = "/media/lock.png"
+
+katex = false
+show_about = true
+show_skills = true
+show_projects = true
+show_opensource = false
+show_publications = false
+show_experience = true
+show_education = true
+show_blog = true
+
+enable_multilingue = true
+
+[extra.lang]
+items = [
+    { lang = "en", links = [
+        { base_url = "/", name = "English" },
+        { base_url = "/es", name = "Spanish" }
+    ] },
+    { lang = "es", links = [
+        { base_url = "/", name = "Inglés" },
+        { base_url = "/es", name = "Español" }
+    ] }
+]
