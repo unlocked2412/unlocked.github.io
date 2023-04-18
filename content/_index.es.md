@@ -6,7 +6,7 @@ lang: "es"
 ### Hola 👋 Soy Gabriel Scalise. Un apasionado desarrollador de automatizaciones macOS y profesor de Haskell.
 
 - 🌱 Escribo código principalmente en Haskell and JavaScript. I’m currently learning Swift and web development.
-- 📫 How to reach me: [Gmail](mailto:gabriels8020@gmail.com)
+- 📫 Cómo encontrarme: [Gmail](mailto:gabriels8020@gmail.com)
 - 🐯 My GitHub [Overview](https://github.com/unlocked2412)
 - ✅ My OmniGroup forums profile [Profile](https://discourse.omnigroup.com/u/unlocked2412/summary)
 - 💻 My Keyboard Maestro forums profile [Profile](https://forum.keyboardmaestro.com/u/unlocked2412/summary)
