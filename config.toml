@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://unlocked2412.github.io"
-title = "Gabriel Scalise - macOS automation | Haskell teacher"
-description = "Home page for Gabriel Scalise macOS automation developer"
+title = "Gabriel Scalise - macOS automation and Haskell teacher"
+description = "Gabriel Scalise macOS automation developer and Haskell language teacher."
 
 # The default language; used in feeds and search index
 # Note: the search index doesn't support Chinese/Japanese/Korean Languages
@@ -22,7 +22,7 @@ theme="zola-resume"
 
 [languages.es]
 title = "Gabriel Scalise - desarrollador automatización macOS | profesor Haskell"
-description = "Gabriel Scalise - macOS automation & Haskell teacher"
+description = "Profesor de lenguaje Haskell y desarrollador de automatización macOS e iOS. Clases privadas o grupales y tutorías."
 generate_feed = true
 taxonomies = [
     {name = "tags"}
