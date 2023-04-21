@@ -1,3 +1,15 @@
+{% macro googletag() %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-54C5E4KZMK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-54C5E4KZMK');
+</script>
+{% endmacro %}
+
 {% macro stylesheet() %}
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">

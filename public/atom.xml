@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gabriel Scalise - macOS automation and Haskell teacher</title>
+    <subtitle>Gabriel Scalise macOS automation developer and Haskell language teacher.</subtitle>
+    <link href="https://unlocked2412.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://unlocked2412.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-09T00:00:00+00:00</updated>
+    <id>https://unlocked2412.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>First post</title>
+        <published>2023-04-09T00:00:00+00:00</published>
+        <updated>2023-04-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/blog/first-post/" type="text/html"/>
+        <id>https://unlocked2412.github.io/blog/first-post/</id>
+        
+        <content type="html">&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;This is a bolded sentence&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is italics&lt;&#x2F;em&gt; &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;&#x2F;h2&gt;
+&lt;p&gt;This is my first blog post. And here comes an &lt;strong&gt;image&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;a href=&quot;wat.jpg&quot; title=&quot;View full-size image&quot;&gt;
+        
+        
+        
+        &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;unlocked2412.github.io&amp;#x2F;processed_images&amp;#x2F;wat.78d40b255cb61466.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+&lt;&#x2F;p&gt;&lt;h2 id=&quot;heading-3&quot;&gt;Heading 3&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Haskell plug-in for Keyboard Maestro</title>
+        <published>2022-02-20T00:00:00+00:00</published>
+        <updated>2022-02-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/projects/haskell-automation/" type="text/html"/>
+        <id>https://unlocked2412.github.io/projects/haskell-automation/</id>
+        
+        <content type="html">&lt;h3 id=&quot;haskell-plug-in-keyboard-maestro&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;forum.keyboardmaestro.com&#x2F;t&#x2F;execute-a-haskell-script-with-arguments&#x2F;25884&#x2F;5&quot;&gt;Haskell Plug-In | Keyboard Maestro&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The only Haskell plug-in for Keyboard Maestro which enables running Haskell scripts directly and optionally passing arguments.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;quick-installation&quot;&gt;Quick Installation&lt;&#x2F;h4&gt;
+&lt;p&gt;Install using &lt;strong&gt;Homebrew&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;brew&lt;&#x2F;span&gt;&lt;span&gt; install
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;license&quot;&gt;License&lt;&#x2F;h4&gt;
+&lt;p&gt;#todo&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OmniJS automation repository</title>
+        <published>2020-03-12T00:00:00+00:00</published>
+        <updated>2020-03-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/projects/omnijs-automation/" type="text/html"/>
+        <id>https://unlocked2412.github.io/projects/omnijs-automation/</id>
+        
+        <content type="html">&lt;h3 id=&quot;omnijs-plug-ins-for-omnifocus-and-omnioutliner&quot;&gt;OmniJS plug-ins for OmniFocus and OmniOutliner&lt;&#x2F;h3&gt;
+&lt;p&gt;A collection of OmniJS plug-ins for OmniFocus and OmniOutliner which use the latest cross-platform (macOS&#x2F;iOS) JavaScript API.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;gpustat&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;crates&#x2F;v&#x2F;gpustat.svg&quot; alt=&quot;OmniJS automation plug-ins&quot; &#x2F;&gt;&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;unlocked2412.github.io&#x2F;projects&#x2F;omnijs-automation&#x2F;LICENSE&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;github&#x2F;license&#x2F;alongwy&#x2F;gpustat.svg?maxAge=86400&quot; alt=&quot;license&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h4&gt;
+&lt;p&gt;The plug-ins are available in &lt;code&gt;Automation&lt;&#x2F;code&gt; menu (you can optionally assign a keyboard shortcut to them.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;quick-installation&quot;&gt;Quick Installation&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Download a &lt;code&gt;.omnifocusjs&lt;&#x2F;code&gt; or &lt;code&gt;.omnioutlinerjs&lt;&#x2F;code&gt; plug-in from the repository.&lt;&#x2F;li&gt;
+&lt;li&gt;Drag the plug-in to your OmniFocus or OmniOutliner iCloud&#x2F;Plug-ins folder&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;license&quot;&gt;License&lt;&#x2F;h4&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>For example vs for instance</title>
+        <published>2019-11-27T00:00:00+00:00</published>
+        <updated>2019-11-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/blog/for-example-vs-for-instance/" type="text/html"/>
+        <id>https://unlocked2412.github.io/blog/for-example-vs-for-instance/</id>
+        
+        <content type="html">&lt;p&gt;One definition of the noun “example” is “a typical instance,” according to the &lt;strong&gt;Oxford English Dictionary&lt;&#x2F;strong&gt; (OED). And one definition of the noun “instance” is “an example”.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;history&quot;&gt;History&lt;&#x2F;h2&gt;
+&lt;p&gt;The phrase “for example” was first recorded in 1584, and “for instance” in 1657, according to published references in the dictionary.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;&#x2F;h2&gt;
+&lt;p&gt;The OED doesn’t specifically define the phrase “for example, but it says “for instance” means “for example, as an instance of what has been said.”&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;digression&quot;&gt;Digression&lt;&#x2F;h2&gt;
+&lt;p&gt;Technically:&lt;&#x2F;p&gt;
+&lt;p&gt;I would hear &lt;strong&gt;for example&lt;&#x2F;strong&gt; to refer to a particular type of occurrence where many types exist.&lt;&#x2F;p&gt;
+&lt;p&gt;And I would hear &lt;strong&gt;for instance&lt;&#x2F;strong&gt; to refer to a particular occurrence of the same type, where many occurrences exist.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The auditors look for many types of fraudulent activity, for example, reporting revenue from fictional sales. Implying there are other types of fraudulent activities.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mr X is being investigated for wash sale rules violations, for instance the trade with ABC Corp where he bought the same shares in his personal account from DEF Corp. Implying there are other violations of the same type, ie wash sale violations, and this is just one instance&#x2F;occurance.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;In principle, they are not synonymous. However, in practice they are used &lt;em&gt;interchangeably&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;&#x2F;h2&gt;
+&lt;p&gt;From these Google Ngram Viewer&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; graphs, we are able to see that the use of &lt;em&gt;for example&lt;&#x2F;em&gt;, was more common compared to &lt;em&gt;for instance&lt;&#x2F;em&gt; by a thin margin (from 1800s to 1900s).&lt;&#x2F;p&gt;
+&lt;p&gt;From 1800-1900:&lt;&#x2F;p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https:&#x2F;&#x2F;books.google.com&#x2F;ngrams&#x2F;interactive_chart?content=for+instance,for+example&amp;year_start=1800&amp;year_end=1900&amp;corpus=en-2019&amp;smoothing=3&quot; width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;However; from the 1900s onwards, the usage difference became more and more pronounced.&lt;&#x2F;p&gt;
+&lt;p&gt;From 1900-2000:&lt;&#x2F;p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https:&#x2F;&#x2F;books.google.com&#x2F;ngrams&#x2F;interactive_chart?content=for+instance,for+example&amp;year_start=1900&amp;year_end=2000&amp;corpus=en-2019&amp;smoothing=3&quot; width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;From 2000-2019:&lt;&#x2F;p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https:&#x2F;&#x2F;books.google.com&#x2F;ngrams&#x2F;interactive_chart?content=for+instance,for+example&amp;year_start=2000&amp;year_end=2019&amp;corpus=en-2019&amp;smoothing=3&quot; width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;&#x2F;iframe&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;&lt;pre style=&quot;background-color:#fafafa;color:#383a42;&quot;&gt;&lt;code&gt;&lt;span&gt;The Google Ngram Viewer or Google Books Ngram Viewer is an online search engine that charts the frequencies of any set of search strings using a yearly count of [n-grams]() found in printed sources published between 1500 and 2019 in Google&amp;#39;s text corpora in English, Chinese (simplified), French, German, Hebrew, Italian, Russian, or Spanish. There are also some specialized English corpora, such as American English, British English, and English Fiction.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;In the field of computational linguistics, an n-gram (sometimes also called Q-gram) is a contiguous sequence of **n** items from a given sample of text or speech. The items can be phonemes, syllables, letters, words or base pairs according to the application. The n-grams typically are collected from a text or speech corpus. When the items are words, n-grams may also be called shingles.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

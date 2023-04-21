@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>Gabriel Scalise - macOS automation and Haskell teacher</title>
+  <meta name="description" content="Gabriel Scalise macOS automation developer and Haskell language teacher.">
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-54C5E4KZMK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-54C5E4KZMK');
+</script>
+
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://unlocked2412.github.io/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://unlocked2412.github.io/elasticlunr.min.js" defer></script>
+
+<script src="https://unlocked2412.github.io/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+<!-- RSS -->
+
+<link rel="alternate" type="application/atom+xml" title="RSS" href="https://unlocked2412.github.io/atom.xml">
+
+
+  
+
+  
+  
+</head>
+
+<body>
+  <aside id="sidebar" class="menu is-hidden-touch">
+    
+
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="https://unlocked2412.github.io/media/lock.png">
+    </figure>
+</div>
+
+
+    
+<ul id="menu" class="menu-list">
+    
+
+<li data-menuanchor="about"><a href="https://unlocked2412.github.io/#anchor_about">ABOUT</a></li>   
+
+ 
+<li data-menuanchor="skills"><a href="https://unlocked2412.github.io/#anchor_skills">SKILLS</a></li>
+
+
+<li data-menuanchor="projects"><a href="https://unlocked2412.github.io/#anchor_projects">PROJECTS</a></li>
+
+
+
+ 
+<li data-menuanchor="experience"><a href="https://unlocked2412.github.io/#anchor_experience">EXPERIENCE</a></li>
+
+ 
+<li data-menuanchor="education"><a href="https://unlocked2412.github.io/#anchor_education">EDUCATION</a></li>
+
+ 
+<li data-menuanchor="blog"><a href="https://unlocked2412.github.io/#anchor_blog">BLOG</a></li>    
+
+</ul>
+
+    
+
+<!-- Language change button -->
+<div class="flex p-2 ml-4 relative">
+<button id="switch-lang" type="button" class="bg-gray-200 text-gray-800 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-white p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+    <svg class="w-6 h-6 bg-gray-200 text-gray-800 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+    </svg>
+</button>
+<div id="switch-lang-panel" class="hidden absolute top-12 -left-1/2 z-10 p-4 rounded-lg divide-y bg-gray-300 dark:bg-gray-800 text-gray-800 dark:text-gray-400 flex flex-col w-28 ">
+    <span class="sr-only">Switch Lang</span>
+    
+    
+        
+        <a class="flex justify-center py-2 hover:text-gray-800 dark:hover:text-white" href="&#x2F;">English</a>
+        
+        <a class="flex justify-center py-2 hover:text-gray-800 dark:hover:text-white" href="&#x2F;es">Spanish</a>
+        
+    
+    
+    
+    
+</div>
+</div>
+
+
+  </aside>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world"  readonly></textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button" id="copyButton">Copy to clipboard</button>
+    </footer>
+  </div>
+</div>
+
+  <div id="content">
+    <!-- Content -->
+    
+<div class="container is-fluid" style="min-height: 100vh;">
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="min-height: 100vh;">
+    <h2>For example vs for instance<a href="" style="font-style: initial;" ><span class="tag is-warning">Link</span></a></h2>
+    
+    <div class="content pb-5">
+      <p>One definition of the noun “example” is “a typical instance,” according to the <strong>Oxford English Dictionary</strong> (OED). And one definition of the noun “instance” is “an example”.</p>
+<h2 id="history">History</h2>
+<p>The phrase “for example” was first recorded in 1584, and “for instance” in 1657, according to published references in the dictionary.</p>
+<h2 id="definitions">Definitions</h2>
+<p>The OED doesn’t specifically define the phrase “for example, but it says “for instance” means “for example, as an instance of what has been said.”</p>
+<h2 id="digression">Digression</h2>
+<p>Technically:</p>
+<p>I would hear <strong>for example</strong> to refer to a particular type of occurrence where many types exist.</p>
+<p>And I would hear <strong>for instance</strong> to refer to a particular occurrence of the same type, where many occurrences exist.</p>
+<p><strong>Examples</strong>:</p>
+<blockquote>
+<p>The auditors look for many types of fraudulent activity, for example, reporting revenue from fictional sales. Implying there are other types of fraudulent activities.</p>
+</blockquote>
+<blockquote>
+<p>Mr X is being investigated for wash sale rules violations, for instance the trade with ABC Corp where he bought the same shares in his personal account from DEF Corp. Implying there are other violations of the same type, ie wash sale violations, and this is just one instance/occurance.</p>
+</blockquote>
+<p>In principle, they are not synonymous. However, in practice they are used <em>interchangeably</em>.</p>
+<h2 id="statistics">Statistics</h2>
+<p>From these Google Ngram Viewer<sup class="footnote-reference"><a href="#1">1</a></sup> graphs, we are able to see that the use of <em>for example</em>, was more common compared to <em>for instance</em> by a thin margin (from 1800s to 1900s).</p>
+<p>From 1800-1900:</p>
+<iframe name="ngram_chart" src="https://books.google.com/ngrams/interactive_chart?content=for+instance,for+example&year_start=1800&year_end=1900&corpus=en-2019&smoothing=3" width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no></iframe>
+<p>However; from the 1900s onwards, the usage difference became more and more pronounced.</p>
+<p>From 1900-2000:</p>
+<iframe name="ngram_chart" src="https://books.google.com/ngrams/interactive_chart?content=for+instance,for+example&year_start=1900&year_end=2000&corpus=en-2019&smoothing=3" width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no></iframe>
+<p>From 2000-2019:</p>
+<iframe name="ngram_chart" src="https://books.google.com/ngrams/interactive_chart?content=for+instance,for+example&year_start=2000&year_end=2019&corpus=en-2019&smoothing=3" width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no></iframe>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup><pre style="background-color:#fafafa;color:#383a42;"><code><span>The Google Ngram Viewer or Google Books Ngram Viewer is an online search engine that charts the frequencies of any set of search strings using a yearly count of [n-grams]() found in printed sources published between 1500 and 2019 in Google&#39;s text corpora in English, Chinese (simplified), French, German, Hebrew, Italian, Russian, or Spanish. There are also some specialized English corpora, such as American English, British English, and English Fiction.
+</span><span>
+</span><span>In the field of computational linguistics, an n-gram (sometimes also called Q-gram) is a contiguous sequence of **n** items from a given sample of text or speech. The items can be phonemes, syllables, letters, words or base pairs according to the application. The n-grams typically are collected from a text or speech corpus. When the items are words, n-grams may also be called shingles.
+</span></code></pre>
+</div>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+</script>
+
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/vendors/scrolloverflow.min.js"></script>
+<script type="text/javascript">
+    var fullpages = new fullpage('#fullpage', {
+        menu: '#menu',
+        setRecordHistory: false,
+        anchors: [
+             'anchor_about',         
+             'anchor_skills',        
+             'anchor_projects',      
+            
+            
+             'anchor_experience',    
+             'anchor_education',     
+             'anchor_blog',          
+        ],
+        afterResize: function( width, height ){
+		    if (width < 936) {
+                fullpage_api.setAutoScrolling(false);
+            } else {
+                fullpage_api.setAutoScrolling(true);
+            }
+	    }
+    });
+    if (screen.width < 936){
+        fullpages.setAutoScrolling(false);
+    }
+
+</script>
+
+</body>
+
+</html>
