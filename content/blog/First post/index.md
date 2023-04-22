@@ -16,9 +16,7 @@ _This is italics_
 
 ## Heading 2
 
-This is my first blog post. And here comes an **image**.
+This is my first blog post.
 
-
-{{ fit_image(path="/blog/First post/wat.jpg") }}
 
 ## Heading 3
