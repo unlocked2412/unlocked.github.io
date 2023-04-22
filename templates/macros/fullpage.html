@@ -1,8 +1,9 @@
 {% macro menu() %}
 <ul id="menu" class="menu-list">
-    
+
+{% set lang_code = macros_helpers::lang_code() %}
 {% if config.extra.show_about           %}
-<li data-menuanchor="about"><a href="{{ get_url(path='/#anchor_about') }}">ABOUT</a></li>   
+<li data-menuanchor="about"><a href="{{ get_url(path=lang_code ~ '/#anchor_about') }}">ABOUT</a></li>   
 {% endif %}
 {% if config.extra.show_skills          %} 
 <li data-menuanchor="skills"><a href="{{ get_url(path='/#anchor_skills') }}">SKILLS</a></li>
