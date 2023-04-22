@@ -1,6 +1,7 @@
 +++
 title = "First post"
 date = 2023-04-09
+description = "My first blog post"
 
 [extra]
 toc = true
