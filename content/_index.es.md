@@ -3,7 +3,7 @@ title: "About"
 lang: "es"
 ---
 
-### Hola 👋 Soy Gabriel Scalise. Un apasionado desarrollador de automatizaciones macOS y profesor del lenguaje Haskell.
+### Hola 👋 Soy Gabriel Scalise. Un desarrollador de automatizaciones macOS y profesor del lenguaje Haskell.
 
 - 🌱 Escribo código principalmente en Haskell and JavaScript. I’m currently learning Swift and web development.
 - 📫 Cómo encontrarme: [Gmail](mailto:gabriels8020@gmail.com)
