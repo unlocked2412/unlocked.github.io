@@ -7,8 +7,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% set lang_ext = macros_helpers::lang_ext() %}
-{% set indexpath = "_index" ~ lang_ext ~ ".md" %}
 <div id="fullpage">
   {% if config.extra.show_about %}
   <div class="section hero is-fullheight page" id="about">

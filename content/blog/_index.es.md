@@ -1,3 +1,4 @@
 ---
-title: "blog en español"
+title: "Blog en español"
+description: "Una colección de pensamientos"
 ---
