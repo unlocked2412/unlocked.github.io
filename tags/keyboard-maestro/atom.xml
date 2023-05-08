@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gabriel Scalise - Keyboard Maestro</title>
+    <subtitle>Gabriel Scalise - macOS automation developer and Haskell language teacher.</subtitle>
+    <link href="https://unlocked2412.github.io/tags/keyboard-maestro/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://unlocked2412.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-03-12T00:00:00+00:00</updated>
+    <id>https://unlocked2412.github.io/tags/keyboard-maestro/atom.xml</id>
+    <entry xml:lang="en">
+        <title>MyClippings Haskell parser repository</title>
+        <published>2020-03-12T00:00:00+00:00</published>
+        <updated>2020-03-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/projects/myclippings-haskell-parser/" type="text/html"/>
+        <id>https://unlocked2412.github.io/projects/myclippings-haskell-parser/</id>
+        
+        <content type="html">&lt;h3 id=&quot;keyboard-maestro-macro-using-myclippings-haskell-parser&quot;&gt;Keyboard Maestro macro using MyClippings Haskell parser&lt;&#x2F;h3&gt;
+&lt;p&gt;A Keyboard Maestro macro which parses the MyClippings.txt file that Kindle uses to store highlights into a JSON-formatted representation. Uses Haskell language and Graham Hutton’s parser combinators library.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

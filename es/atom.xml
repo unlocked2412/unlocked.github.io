@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Gabriel Scalise</title>
+    <subtitle>Gabriel Scalise. Profesor de lenguaje Haskell y desarrollador de automatización macOS e iOS. Clases privadas de Haskell (o grupales) y tutorías.</subtitle>
+    <link href="https://unlocked2412.github.io/es/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://unlocked2412.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-09T00:00:00+00:00</updated>
+    <id>https://unlocked2412.github.io/es/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Primer post</title>
+        <published>2023-04-09T00:00:00+00:00</published>
+        <updated>2023-04-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/es/blog/test/" type="text/html"/>
+        <id>https://unlocked2412.github.io/es/blog/test/</id>
+        
+        <content type="html">&lt;h1 id=&quot;encabezado-1&quot;&gt;Encabezado 1&lt;&#x2F;h1&gt;
+&lt;p&gt;Es un post en español&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

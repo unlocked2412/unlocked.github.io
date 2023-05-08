@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gabriel Scalise - Automation</title>
+    <subtitle>Gabriel Scalise - macOS automation developer and Haskell language teacher.</subtitle>
+    <link href="https://unlocked2412.github.io/tags/automation/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://unlocked2412.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-02-20T00:00:00+00:00</updated>
+    <id>https://unlocked2412.github.io/tags/automation/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Haskell plug-in for Keyboard Maestro</title>
+        <published>2022-02-20T00:00:00+00:00</published>
+        <updated>2022-02-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://unlocked2412.github.io/projects/haskell-automation/" type="text/html"/>
+        <id>https://unlocked2412.github.io/projects/haskell-automation/</id>
+        
+        <content type="html">&lt;h3 id=&quot;haskell-plug-in-keyboard-maestro&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;forum.keyboardmaestro.com&#x2F;t&#x2F;execute-a-haskell-script-with-arguments&#x2F;25884&#x2F;5&quot;&gt;Haskell Plug-In | Keyboard Maestro&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The only Haskell plug-in for Keyboard Maestro which enables running Haskell scripts directly and optionally passing arguments.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;quick-installation&quot;&gt;Quick Installation&lt;&#x2F;h4&gt;
+&lt;p&gt;Install using &lt;strong&gt;Homebrew&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;brew&lt;&#x2F;span&gt;&lt;span&gt; install
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;license&quot;&gt;License&lt;&#x2F;h4&gt;
+&lt;p&gt;#todo&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
